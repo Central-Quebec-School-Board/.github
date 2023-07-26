@@ -103,11 +103,11 @@ Once the pull request has been created, a reviewer will look at the changes impl
 
 If changes are requested, return to your local branch and execute those requests, then push to the issue branch again. Return to the pull request you made and add a comment referencing the commit SHA of the change by pasting the full SHA code. It will get automatically converted into a link to the commit.  
 ![Commenting a commit SHA](./readme/commenting_commit_sha.png?raw=true)  
--
+
 ![Adding a change](./readme/adding_change.png?raw=true)
 
 To find the commit SHA, you can go to the issue-branch's commits and copy the SHA from there.  
 ![Navigate to commits](./readme/navigate_commits.png?raw=true)  
--
+
 ![Copy the SHA](./readme/copying_sha.png?raw=true)  
 If using git bash, use the ``git rev-parse HEAD`` command and copy the output.
