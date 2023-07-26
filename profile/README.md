@@ -2,7 +2,7 @@
 
 Each repository follows a workflow based on its type.
 
-## Versioned repository
+## Versioned repositories
 
 **Branches**:
 * latest
@@ -27,13 +27,13 @@ Each in-development feature has its own feature branch based on its requesting i
 * staging
 * dev
 
-  Continuously developped repositories use the ``main`` branch for the currently deployed code.
+Continuously developped repositories use the ``main`` branch for the currently deployed code.
 
-  ``staging`` branch is for deployed pre-production code.
+``staging`` branch is for deployed pre-production code.
 
-  Features for the next deployment are accumulated in ``dev``.
+Features for the next deployment are accumulated in ``dev``.
 
-  Each in-development feature has its own feature branch based on its requesting issue.
+Each in-development feature has its own feature branch based on its requesting issue.
 
 # How to contribute
 
