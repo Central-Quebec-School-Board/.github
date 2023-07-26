@@ -83,8 +83,8 @@ To commit and push using git bash, follow these steps:
 ## Creating a pull request
 
 Once you have pushed all the necessary code using one or more commits, go to the *Pull requests* section to create a pull request.
-![Pull request section](./.github/profile/readme/pull_request_section.png?raw=true)
-![Creatinga new pull request](./.github/profile/readme/create_pr.png?raw=true)
+![Pull request section](./.github/profile/readme/pull_request_section.png?raw=true)  
+![Creating a new pull request](./.github/profile/readme/create_pr.png?raw=true)
 
 Depending on the type of issue you are working on, you will have to pick the correct base branch to merge into.
 Follow these guidelines to select the correct branch:
