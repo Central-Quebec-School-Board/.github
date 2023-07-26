@@ -96,10 +96,10 @@ Follow these guidelines to select the correct branch:
 Here is an example using a bugfix
 ![Selecting the correct base branch](./.github/profile/readme/selecting_base_branch.png?raw=true)
 
-Once the correct base branch has been selected, make sure to assign yourself to the pull request and reference the issue you started with. To reference an issue, prefix its issue number with `#`. Example: `#5`.
+Once the correct base branch has been selected, make sure to assign yourself to the pull request and reference the issue you started with. To reference an issue, prefix its issue number with `#`. Example: `#5`.  
 ![Example of a pull request](./.github/profile/readme/example_pr.png?raw=true)
 
 Once the pull request has been created, a reviewer will look at the changes implemented and either accept & merge the request, or they will ask for changes to the implementation you are adding.
 
-If changes are requested, return to your local branch and execute those requests, then pull to the issue branch again. Return to the pull request you made and add a comment referencing the commit SHA of the change.
+If changes are requested, return to your local branch and execute those requests, then pull to the issue branch again. Return to the pull request you made and add a comment referencing the commit SHA of the change.  
 ![Adding a change](./.github/profile/readme/adding_change.png?raw=true)
