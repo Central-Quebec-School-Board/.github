@@ -74,8 +74,8 @@ Once you have implemented the requested changes and tested to make sure its work
 
 ### Git bash
 
-To commit and push using git bash, follow these steps:
-![Pushing using git bash](./readme/pushing_using_git_bash.png?raw=true)
+To commit and push using git bash, follow these steps:  
+![Pushing using git bash](./readme/pushing_using_git_bash.png?raw=true)  
 1. Add the file(s) using ``git add``
 2. Commit the files and add a commit message using ``git commit``
 3. Push the changes to the repository using ``git push``
