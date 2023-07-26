@@ -101,5 +101,11 @@ Once the correct base branch has been selected, make sure to assign yourself to 
 
 Once the pull request has been created, a reviewer will look at the changes implemented and either accept & merge the request, or they will ask for changes to the implementation you are adding.
 
-If changes are requested, return to your local branch and execute those requests, then pull to the issue branch again. Return to the pull request you made and add a comment referencing the commit SHA of the change.  
+If changes are requested, return to your local branch and execute those requests, then pull to the issue branch again. Return to the pull request you made and add a comment referencing the commit SHA of the change by pasting the full SHA code. It will get automatically converted into a link to the commit.
+![Commenting a commit SHA](./.github/profile/readme/commenting_commit_sha.png?raw=true)
 ![Adding a change](./.github/profile/readme/adding_change.png?raw=true)
+
+To find the commit SHA, you can go to the issue-branch's commits and copy the SHA from there.  
+![Navigate to commits](./.github/profile/readme/navigate_commits.png?raw=true)  
+![Copy the SHA](./.github/profile/readme/copying_sha.png?raw=true)  
+If using git bash, use the ``git rev-parse HEAD`` command and copy the output.
