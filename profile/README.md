@@ -2,7 +2,7 @@
 
 Each repository follows a workflow based on its type.
 
-## Versioned repository
+## Versioned repositories
 
 **Branches**:
 * latest
@@ -27,13 +27,13 @@ Each in-development feature has its own feature branch based on its requesting i
 * staging
 * dev
 
-  Continuously developped repositories use the ``main`` branch for the currently deployed code.
+Continuously developped repositories use the ``main`` branch for the currently deployed code.
 
-  ``staging`` branch is for deployed pre-production code.
+``staging`` branch is for deployed pre-production code.
 
-  Features for the next deployment are accumulated in ``dev``.
+Features for the next deployment are accumulated in ``dev``.
 
-  Each in-development feature has its own feature branch based on its requesting issue.
+Each in-development feature has its own feature branch based on its requesting issue.
 
 # How to contribute
 
@@ -41,11 +41,12 @@ If you wish to contribute to open feature requests or bug requests, please consu
 
 ## Pick an issue
 
+
 Navigate to the *Issues* section of a repository and pick an issue.
 ![Picking an issue](https://github.com/Central-Quebec-School-Board/.github/tree/main/profile/readme/picking_issue.png?raw=true)
 
 Once you have selected an issue to work on, assign yourself and create the feature/bug branch.
-![Assigning an issue](./.github/profile/readme/assigning_issue.png?raw=true)
+![Assigning an issue](./readme/assigning_issue.png?raw=true)
 
 ## Checkout the branch locally
 
@@ -74,17 +75,19 @@ Once you have implemented the requested changes and tested to make sure its work
 
 ### Git bash
 
-To commit and push using git bash, follow these steps:
-![Pushing using git bash](https://github.com/Central-Quebec-School-Board/.github/tree/main/profile/readme/pushing_using_git_bash.png?raw=true)
+
+To commit and push using git bash, follow these steps:  
+![Pushing using git bash](https://github.com/Central-Quebec-School-Board/.github/tree/main/profile/readme/pushing_using_git_bash.png?raw=true)  
 1. Add the file(s) using ``git add``
 2. Commit the files and add a commit message using ``git commit``
 3. Push the changes to the repository using ``git push``
 
 ## Creating a pull request
 
-Once you have pushed all the necessary code using one or more commits, go to the *Pull requests* section to create a pull request.
+Once you have pushed all the necessary code using one or more commits, go to the *Pull requests* section to create a pull request.  
 ![Pull request section](https://github.com/Central-Quebec-School-Board/.github/tree/main/profile/readme/pull_request_section.png?raw=true)  
 ![Creating a new pull request](https://github.com/Central-Quebec-School-Board/.github/tree/main/profile/readme/create_pr.png?raw=true)
+
 
 Depending on the type of issue you are working on, you will have to pick the correct base branch to merge into.
 Follow these guidelines to select the correct branch:
