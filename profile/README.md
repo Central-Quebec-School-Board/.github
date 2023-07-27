@@ -42,10 +42,10 @@ If you wish to contribute to open feature requests or bug requests, please consu
 ## Pick an issue
 
 
-Navigate to the *Issues* section of a repository and pick an issue.
+Navigate to the *Issues* section of a repository and pick an issue.  
 ![Picking an issue](https://github.com/Central-Quebec-School-Board/.github/blob/main/profile/readme/picking_issue.png?raw=true)
 
-Once you have selected an issue to work on, assign yourself and create the feature/bug branch.
+Once you have selected an issue to work on, assign yourself and create the feature/bug branch.  
 ![Assigning an issue](https://github.com/Central-Quebec-School-Board/.github/blob/main/profile/readme/assigning_issue.png?raw=true)
 
 ## Checkout the branch locally
