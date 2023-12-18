@@ -1,3 +1,19 @@
+# How to install the CQSB IM suite
+
+## Introduction
+At its core, the Identity Management (IM) is managed by two primary services.
+
+1. The CQSBIM [Api](https://github.com/Central-Quebec-School-Board/CQSBIdentity)
+2. The CQSBIM Worker [Service](https://github.com/Central-Quebec-School-Board/CQSBIdentityServiceWorker)
+
+There are also other supporting applications that interact with the IM core but are not required to make the identity management functional. They are:
+
+* CQSBIM [Portal](https://github.com/Central-Quebec-School-Board/CQSBIdentityPortal) - Allows users to retrieve accounts created by the IM
+* IT [Dashboard](https://github.com/Central-Quebec-School-Board/ITDashboard) - Used by IT to oversee, manage and interact manually with the IM services.
+* CQSBIM [IdentityLib](https://github.com/Central-Quebec-School-Board/CQSBIdentityLib) - Not a service, but a library making the use of the IM Api much easier by providing the model classes and functions to call the api without having to manage the HTTP connection directly.
+
+For more details on how to install or use each of the mentioned components, refer to their GitHub pages linked above.
+
 # Repository Workflow
 
 Each repository follows a workflow based on its type.
