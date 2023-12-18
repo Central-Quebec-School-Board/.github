@@ -6,17 +6,13 @@ Each repository follows a workflow based on its type.
 
 **Branches**:
 * latest
-* release/[version]
-* dev
+* feature/[name]
 
 Versioned repositories have specific releases and use the following workflow:
 
-The most recent stable release has its branch ``release/[version]`` and is also merged to ``latest``.
+The most recent stable release is tagged from the ``latest`` or branch.
 
-Previous releases can be found in the *Release* section. Up to two previous releases may also still exist in their respective ``release/[version]`` branch.  
-Older release branches are removed.
-
-Features for the next release are accumulated in ``dev``.
+Previous releases can be found in the *Release* section.
 
 Each in-development feature has its own feature branch based on its requesting issue.
 
@@ -24,14 +20,11 @@ Each in-development feature has its own feature branch based on its requesting i
 
 **Branches**:
 * main
-* staging
-* dev
+* dev (not always present)
 
 Continuously developped repositories use the ``main`` branch for the currently deployed code.
 
-``staging`` branch is for deployed pre-production code.
-
-Features for the next deployment are accumulated in ``dev``.
+If the code is deployed to the testserver for long-term testing, it will de in the ``dev`` branch. Otherwise no ``dev`` branch will exist.
 
 Each in-development feature has its own feature branch based on its requesting issue.
 
@@ -88,13 +81,10 @@ Once you have pushed all the necessary code using one or more commits, go to the
 ![Pull request section](https://github.com/Central-Quebec-School-Board/.github/blob/main/profile/readme/pull_request_section.png?raw=true)  
 ![Creating a new pull request](https://github.com/Central-Quebec-School-Board/.github/blob/main/profile/readme/create_pr.png?raw=true)
 
+Once the pull request has been reviewed and approved, it can be merged into the latest or main branch.
 
-Depending on the type of issue you are working on, you will have to pick the correct base branch to merge into.
-Follow these guidelines to select the correct branch:
-* bugfix: dev
-* documentation: dev
-* feature request: dev
-* hotfix: latest / main
+For a hotfix, you must make sure the patch number is incremented in the project file. A new tag with the same version number must be made on  that merge commit.
+For a new feature, you must increment the minor version number and once released, a tag with the same version number must be made when creating a new release.
 
 Here is an example using a bugfix
 ![Selecting the correct base branch](https://github.com/Central-Quebec-School-Board/.github/blob/main/profile/readme/selecting_base_branch.png?raw=true)
