@@ -1,10 +1,12 @@
-# How to install the CQSB IM suite
+# The CQSB IM suite
 
-## Introduction
+## CQSB IM Core
 At its core, the Identity Management (IM) is managed by two primary services.
 
 1. The CQSBIM [Api](https://github.com/Central-Quebec-School-Board/CQSBIdentity)
 2. The CQSBIM Worker [Service](https://github.com/Central-Quebec-School-Board/CQSBIdentityServiceWorker)
+
+## CQSB IM Services
 
 There are also other supporting applications that interact with the IM core but are not required to make the identity management functional. They are:
 
